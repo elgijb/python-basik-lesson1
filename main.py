@@ -1,15 +1,14 @@
-name = "Python"
-print("Первый символ строки:", name[0])
+text = "привет"
+upper_text = text.upper()
+print("Верхний регистр:", upper_text)
 
-fruits = ["яблоко", "банан", "вишня"]
-print("Последний элемент списка:", fruits[-1])
+numbers = [1, 2, 3]
+numbers.append(4)
+print("Список после добавления:", numbers)
 
-student = {
-    "имя": "Анна",
-    "возраст": 17,
-    "класс": "11Б"
-}
-print("Словарь ученик:", student)
+student = {"имя": "Олег", "класс": "10А", "возраст": 16}
+print("Ключи словаря:", student.keys())
 
-colors = {"красный", "синий", "зелёный"}
-print("Множество цветов:", colors)
+colors = {"красный", "синий"}
+colors.add("зелёный")
+print("Множество после добавления:", colors)
